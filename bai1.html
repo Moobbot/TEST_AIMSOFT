@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 1</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./jquery.min.js"></script>
+  <!-- <script src="./javascript_learn/javascript.js"></script> -->
+  <script src="./javascript_bai1.js"></script>
+
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center;">
+    <a href="./index.html">Home</a>
+    <a href="./bai2.html">bài 2</a>
+  </div>
+  <div class="wrap">
+    <div class="test">
+      <h1>Bài 1: Danh sách Comments từ dữ liệu trong file comments.json</h1>
+      <p>
+        Yêu cầu: <br>
+        * Ví dụ sublist:<br>
+        - Comment 1<br>
+        ---- Comment 2<br>
+        - Comment 3<br>
+        ---- Comment 4<br>
+        ------- Comment 5<br>
+        <br>
+        * Comment trả lời sẽ thuộc sublist của comment gốc (trường replyingTo)<br>
+        * Các comment được sắp xếp theo thời gian comment (trường createdAt)<br>
+        * Comment cần hiển thị được đủ thông tin gồm:<br>
+        * Tên user comment (trường username)<br>
+        * Thời gian comment được tạo tính tới thời điểm hiện tại (trường createdAt, có dạng “2 phút trước”)
+      </p>
+    </div>
+    <div id="bai1"></div>
+  </div>
+</body>
+
+</html>

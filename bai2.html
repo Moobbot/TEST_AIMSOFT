@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 2</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./jquery.min.js"></script>
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center;">
+    <a href="./index.html">Home</a>
+    <a href="./bai1.html">bài 1</a>
+  </div>
+  <div class="wrap clear-both">
+    <div class="test">
+      <h1>Bài 2: Drag&Drop container đọc file văn bản (.txt)</h1>
+      <p>
+        Tạo 1 Drag&Drop container đọc file văn bản (.txt) người dùng kéo thả vào
+        và thống kê ra tổng số từ khác nhau xuất hiện trong file văn bản
+        và 3 từ được lặp lại nhiều nhất cùng số lần lặp lại của 3 từ đó.
+        (Lưu ý không phân biệt chữ hoa hay chữ thường)<br>
+        File văn bản chỉ sử dụng ký tự alphabet, không chứa số.<br>
+        File văn bản chỉ chứa các ký tự đặc biệt sau:<br>
+        - chấm (.)<br>
+        - phảy (,)<br>
+        - khoảng trắng ( )<br>
+        Yêu cầu:<br>
+        - Sử dụng Web Worker để xử lý văn bản.<br>
+        - Nếu không phải file có đuôi định dạng “.txt” sẽ báo lỗi.<br>
+        - Nếu file có ít hơn 3 từ khác nhau sẽ báo lỗi.<br>
+        - Kiểm tra các yêu cầu của file văn bản theo mổ tả ở trên nếu không thoả mãn sẽ báo lỗi.<br>
+      </p>
+    </div>
+    <div id="bai2">
+      <div id="drag-drop-container">
+        <p>Kéo và thả file văn bản (.txt) vào đây</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./javascript_bai2.js"></script>
+
+</html>
